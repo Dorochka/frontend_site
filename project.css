@@ -1,0 +1,603 @@
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+	}
+
+    .clearfix
+    {
+        min-width: 987px;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    
+    .tophead
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .brand
+    {
+        display: flex;
+    }
+
+    .brand p
+    {
+        color: red;
+        font-family: "Bebas Neue";
+        margin-top: 10px;
+    }
+
+    .brand p:first-child
+    {
+        font-size: 35px;
+        margin-right: 5px;
+        font-weight: 100;
+    }
+    
+    .brand p:last-child
+    {
+        font-size: 25px;
+        margin-top: 19px;
+    }
+
+    .menu
+    {
+        display: flex;
+    }
+
+    .menu a
+    {
+        text-decoration: none;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        margin-right: 50px;
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .slid p
+    {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .slid p:first-child
+    {
+        letter-spacing: 6px;
+        font-family: "Phoenica Std Demo";
+        font-size: 170%;
+        margin-top: 13%;
+        text-transform: uppercase;
+    }
+
+    .slid p:nth-child(2)
+    {
+        font-size: 250%;
+        font-family: "Proba Pro";
+        margin-top: 1%;
+        margin-bottom: 1%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .slid p:nth-child(3)
+    {
+        font-family: "Phoenica Std Demo";
+        font-size: 140%;
+        margin-bottom: 2%;
+        text-transform: uppercase;
+    }
+
+    .slid a
+    {
+        text-decoration: none;
+        text-transform: uppercase;
+        background: none;
+        border: white solid 2px;
+        font-family: "Phoenica Std Demo";
+        color: white;
+        padding: .5% 2% .5% 2%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+.slid a:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+.slid a:active
+{
+    background-color: black;
+    color: white;
+}
+
+.slid
+{
+    width: 57%;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.Lenta
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 300%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: move 12s infinite alternate;
+}
+
+.Lenta div
+{ 
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes move 
+{
+    0%, 27%
+    {
+        left: 0;
+    }
+    36%, 63%
+    {
+        left: -100%;
+    }
+    72%, 100%
+    {
+        left: -200%;
+    }
+}
+header
+{
+    background: url(bghead.jpg);
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 100px;
+}
+   
+.podp
+{
+    padding: .5%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.podp p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 180%;
+    text-transform: capitalize;
+    padding: 5% 0;
+}
+
+.podp hr
+{
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    height: 2px;
+    background-color: rgb(212, 16, 16);
+}
+
+.block1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.odej
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 55%;
+    position: relative;
+}
+
+.odej figure
+{
+    position: relative;
+}
+.odej img
+{
+    width: 100%;
+    opacity: .9;
+    filter: brightness(30%);
+}
+
+.k1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    border: solid white 3px;
+    top: 7.5%;
+    left: 7.5%;
+    
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.k1 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.otst
+{
+    width: 3%;
+}
+
+.k2 
+{
+    top: 27%;
+    right: 28.5%;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 190%;
+}
+
+.k2 p:nth-child(2)
+{
+    margin-top: 4%;
+}
+
+.k2 p:nth-child(4)
+{
+    margin-bottom: 4%;
+}
+
+.k3 p:nth-child(2)
+{
+    margin-top: 2%;
+}
+
+.k3 p:nth-child(4)
+{
+    margin-bottom: 2%;
+}
+.k2 hr
+{
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+    width:70%;
+    height: 1px;
+}
+.k3 
+{
+    top: 27%;
+    right: 12.5%;
+    color: white;
+    font-size: 200%;
+    position: absolute;
+    font-family: "Proba Pro";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.k3 hr
+{
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+    width:50%;
+    height: 1px;
+}
+.block2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fonlentu.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+.tovar
+{
+    width: 63%;
+    display: flex;
+    margin-left: 3%;
+}
+
+.zagol
+{
+    color: rgb(212, 16, 16);
+    font-family: "Proba Pro";
+    text-transform: uppercase;
+    margin: 2% 0;
+    font-size: 150%;
+}
+.tovar img
+{
+    height: 400px;
+    width: auto;
+}
+
+.opis
+{
+    margin-left: 3%;
+}
+
+.opis p:nth-child(2)
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 4% 0;
+    letter-spacing: 2px;
+}
+
+.opis hr
+{
+    background-color: black;
+    height: 1px;
+    width: 5%;
+    margin: 4% 0;
+}
+
+.opis p:nth-child(4)
+{
+    font-family: 'Saxony-Serial';
+    letter-spacing: 1px;
+    font-size: 90%;
+}
+
+.opis p:nth-child(6)
+{
+    font-family: 'Saxony-Serial';
+    letter-spacing: 1px;
+    font-size: 90%;
+}
+
+.opis form
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opis [type="button"]
+{
+    background: none;
+    border: black solid 1px;
+    text-align: center;
+    justify-content: space-between;
+    min-width: 60px;
+    padding: 3% 3%;
+    margin: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.opis [type="button"]:nth-child(6)
+{
+    min-width: 147px;
+    padding: 3% 5%;
+}
+
+.opis [type="button"]:nth-child(7)
+{
+    min-width: 147px;
+    padding: 3% 5%;
+}
+
+.opis [type="button"]:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+.opis [type="button"]:active
+{
+    background-color: black;
+    color: white;
+}
+
+.block3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jurn
+{
+    display: flex;
+    width: 55%;
+    justify-content: center;
+}
+
+.stat
+{
+    display: flex;
+    flex-direction: column;
+    width: 48.5%;
+}
+
+.avtor
+{
+    text-transform: capitalize;
+    font-family: "Phoenica Std Demo";
+    color: rgb(56, 56, 56);
+    margin-top: 2%;
+}
+
+.txt
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80%;
+}
+
+.stat hr
+{
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    height: 1px;
+    margin: 5% 0;
+}
+
+.stat a
+{
+    width: 37%;
+    text-decoration: none;
+    color: black;
+    background: none;
+    border: black solid 1px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 3% 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    min-width: 147px;
+    padding: 3% 5%;
+}
+
+.stat a:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+.stat a:active
+{
+    background-color: black;
+    color: white;
+}
+
+.block4
+{
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('podval.jpg') no-repeat;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 47px;
+    background-size: cover ;
+}
+
+.otpr
+{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.otpr p:first-child
+{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    font-size: 90%;
+}
+
+.otpr [type="email"]
+{
+    width: 67%;
+    background: none;
+    border: white solid 1px;
+    height: 30px;
+    margin-right: 7%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 7%;
+}
+
+.otpr a
+{
+    text-decoration: none;
+    color: black;
+    width: 14%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    min-width: 25%;
+    padding: 1% 6%;
+    font-size: 70%;
+}
+
+
+.vstavka
+{
+    position: relative;
+}
+
+.vstavka img
+{
+    position: absolute;
+    width: 2%;
+    top: 25%;
+    left: 3%;
+    display: block;
+}
+
+
+.otpr [type="email"]::placeholder
+{
+    text-transform: uppercase;
+    color: rgb(228, 212, 212);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    padding: 15%;
+    padding-left: 3%;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.maiL a:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+.maiL a:active
+{
+    background-color: black;
+    color: white;
+}
